@@ -1,0 +1,10 @@
+
+to run do:
+
+nix run
+
+build might fail if this gets updated: 
+    url = "https://immersedvr.com/dl/Immersed-x86_64.AppImage";
+in which case you need to update
+    sha256 = "...";
+to the new value displayed by failed build
